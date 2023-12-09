@@ -50,6 +50,7 @@
 
 	strong, b {
 		font-weight: _font(weight-bold);
+		border-bottom: solid 1px _palette(color1);
 	}
 
 	em, i {
