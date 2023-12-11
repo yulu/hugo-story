@@ -19,11 +19,11 @@
 		}
 
 		@include breakpoint('<=small') {
-			font-size: 11pt;
+			font-size: 12pt;
 		}
 
 		@include breakpoint('<=xxsmall') {
-			font-size: 10pt;
+			font-size: 12pt;
 		}
 	}
 
@@ -99,7 +99,7 @@
 	}
 
 	h6 {
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 	}
 
 	sub {
@@ -170,6 +170,12 @@
 		padding-right: 15px;
 	}
 
+	@include breakpoint('<=large') {
+		h6 {
+			font-size: 1rem;
+		}
+	}
+
 	@include breakpoint('<=small') {
 		p {
 			&.major {
@@ -190,6 +196,14 @@
 		}
 
 		h4 {
+			font-size: 1rem;
+		}
+
+		h5 {
+			font-size: 1rem;
+		}
+
+		h6 {
 			font-size: 1rem;
 		}
 	}
