@@ -21,6 +21,14 @@
 			&.small {
 				width: _size(inner) * 0.5;
 			}
+
+			.tag {
+				background-color: pink;
+				font-size: 11px;
+				padding: 2px 5px;
+				border-radius: 10px;
+				font-weight: 400;
+			}
 		}
 
 		@include breakpoint('<=xlarge') {

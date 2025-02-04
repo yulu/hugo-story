@@ -24,6 +24,18 @@
 
 		li {
 			padding-left: 0.5rem;
+
+			.date {
+				font-size: 14px;
+			}
+
+			.tag {
+				background-color: pink;
+				font-size: 11px;
+				padding: 2px 5px;
+				border-radius: 10px;
+				font-weight: 400;
+			}
 		}
 
 		&.alt {
