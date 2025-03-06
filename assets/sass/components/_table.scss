@@ -86,6 +86,13 @@
 		}
 	}
 
+	@include breakpoint('<=xsmall') {
+		table {
+			overflow-x: auto;
+			display: block;
+		}
+	}
+
 	@mixin color-table($p: null) {
 		table {
 			tbody {
